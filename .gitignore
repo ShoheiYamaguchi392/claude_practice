@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.db-journal
+
+# Generated Prisma client
+apps/api/src/generated/
+
+# pnpm
+.pnpm-store/
+
+# OS / editor
+.DS_Store
+
+# Claude Code local-only files
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
