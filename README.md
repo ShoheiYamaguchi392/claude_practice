@@ -12,7 +12,7 @@ Next.js（`apps/web`）と Hono（`apps/api`）で構成された pnpm workspace
 
 ## 実装前の起動方法
 
-- VSCode系のIDEで「Reopen in Container」して、、`.devcontainer/web` または `.devcontainer/api` を選択する（`postCreateCommand` で依存関係のインストールが自動実行される）
+- VSCode系のIDEで「Reopen in Container」して、`.devcontainer/web` または `.devcontainer/api` を選択する（`postCreateCommand` で依存関係のインストールが自動実行される）
 
 ## 実装後の終了方法
 
