@@ -27,3 +27,4 @@ apps/api/src/generated/
 # Claude Code local-only files
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
+.claude/personal/

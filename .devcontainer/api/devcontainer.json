@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "dockerComposeFile": ["${localWorkspaceFolder}/docker-compose.yml"],
+  "service": "api",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [3000, 3001],
+  "postCreateCommand": "pnpm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "Prisma.prisma",
+        "oven.bun-vscode"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
