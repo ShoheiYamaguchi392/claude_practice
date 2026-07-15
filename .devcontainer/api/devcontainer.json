@@ -5,9 +5,10 @@
   "workspaceFolder": "/workspace",
   "forwardPorts": [3000, 3001],
   "postCreateCommand": "pnpm install",
+  "remoteUser": "bun",
   "mounts": [
-    "source=${localEnv:HOME}/.claude,target=/root/.claude,type=bind,consistency=cached",
-    "source=${localEnv:HOME}/.claude.json,target=/root/.claude.json,type=bind,consistency=cached"
+    "source=${localEnv:HOME}/.claude,target=/home/bun/.claude,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.claude.json,target=/home/bun/.claude.json,type=bind,consistency=cached"
   ],
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
