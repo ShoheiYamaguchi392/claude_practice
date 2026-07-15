@@ -5,6 +5,7 @@ packages:
 storeDir: .pnpm-store
 
 allowBuilds:
+  '@parcel/watcher': true
   "@prisma/engines": true
   better-sqlite3: true
   esbuild: true

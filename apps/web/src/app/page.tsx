@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getUsers } from "@/lib/api-client";
+import Button from "@/components/Button/Button";
 import styles from "./page.module.css";
 
 export default async function Home() {
@@ -48,6 +49,13 @@ export default async function Home() {
             </a>{" "}
             center.
           </p>
+        </div>
+        <div className={styles.intro}>
+          <h1>Button</h1>
+          <div style={{ display: "flex", gap: "16px" }}>
+            <Button>Button</Button>
+            <Button disabled>Button</Button>
+          </div>
         </div>
         <div className={styles.ctas}>
           <a
